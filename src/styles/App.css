@@ -1,1 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.main{
+    width: 200px;
+}
+
+.main input{
+    width: 200px;
+}
+
+.suggestions{
+   height: 100px;
+   width: 100%;
+   overflow-y: scroll;
+}
+
+.suggestions li:nth-child(odd){
+    background-color: green;
+}
+.suggestions li:nth-child(even){
+    background-color: blue;
+}
